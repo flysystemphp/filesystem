@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\FTP;
+namespace Flysystem\FTP;
 
 class RawListFtpConnectivityChecker implements ConnectivityChecker
 {

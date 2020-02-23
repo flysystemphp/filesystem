@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 use Generator;
 use PHPUnit\Framework\TestCase;
-
 use RuntimeException;
 
 use function time;

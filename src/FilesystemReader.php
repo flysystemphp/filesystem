@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 /**
  * This interface contains everything to read from and inspect

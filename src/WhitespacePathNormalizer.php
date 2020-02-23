@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 class WhitespacePathNormalizer implements PathNormalizer
 {

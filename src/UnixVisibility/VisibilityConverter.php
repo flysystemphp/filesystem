@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\UnixVisibility;
+namespace Flysystem\UnixVisibility;
 
 interface VisibilityConverter
 {

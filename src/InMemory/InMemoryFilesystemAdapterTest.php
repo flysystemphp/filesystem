@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\InMemory;
+namespace Flysystem\InMemory;
 
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemAdapterTestCase;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
+use Flysystem\Config;
+use Flysystem\DirectoryAttributes;
+use Flysystem\FileAttributes;
+use Flysystem\FilesystemAdapter;
+use Flysystem\FilesystemAdapterTestCase;
+use Flysystem\UnableToCopyFile;
+use Flysystem\UnableToMoveFile;
+use Flysystem\UnableToReadFile;
+use Flysystem\UnableToRetrieveMetadata;
 
 /**
  * @group in-memory

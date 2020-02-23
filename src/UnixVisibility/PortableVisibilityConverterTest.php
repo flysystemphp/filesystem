@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\UnixVisibility;
+namespace Flysystem\UnixVisibility;
 
-use League\Flysystem\InvalidVisibilityProvided;
-use League\Flysystem\Visibility;
+use Flysystem\InvalidVisibilityProvided;
+use Flysystem\Visibility;
 use PHPUnit\Framework\TestCase;
 
 /**

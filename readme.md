@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use League\Flysystem\Filesystem;
-use League\Flysystem\Local\LocalFilesystemAdapter;
+use Flysystem\Filesystem;
+use Flysystem\Local\LocalFilesystemAdapter;
 
 $adapter = new LocalFilesystemAdapter(__DIR__.'/somewhere/');
 $filesystem = new Filesystem($adapter);

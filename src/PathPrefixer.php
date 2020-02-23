@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 use function rtrim;
 use function strlen;

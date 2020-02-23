@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\FTP;
+namespace Flysystem\FTP;
 
 use DateTime;
+use Flysystem\Config;
+use Flysystem\DirectoryAttributes;
+use Flysystem\FileAttributes;
+use Flysystem\FilesystemAdapter;
+use Flysystem\MimeType;
+use Flysystem\PathPrefixer;
+use Flysystem\StorageAttributes;
+use Flysystem\UnableToCopyFile;
+use Flysystem\UnableToCreateDirectory;
+use Flysystem\UnableToDeleteDirectory;
+use Flysystem\UnableToDeleteFile;
+use Flysystem\UnableToMoveFile;
+use Flysystem\UnableToReadFile;
+use Flysystem\UnableToRetrieveMetadata;
+use Flysystem\UnableToSetVisibility;
+use Flysystem\UnableToWriteFile;
+use Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Flysystem\UnixVisibility\VisibilityConverter;
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\DirectoryAttributes;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\MimeType;
-use League\Flysystem\PathPrefixer;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\UnixVisibility\VisibilityConverter;
 use Throwable;
 
 class FtpAdapter implements FilesystemAdapter

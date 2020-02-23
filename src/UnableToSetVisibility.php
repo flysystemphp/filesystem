@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 use RuntimeException;
-
 use Throwable;
 
 use function rtrim;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\FTP;
+namespace Flysystem\FTP;
 
 use PHPUnit\Framework\TestCase;
 

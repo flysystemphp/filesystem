@@ -1,10 +1,10 @@
 {
-    "name": "flysystem/filesystem",
-    "description": "flysystem/filesystem",
+    "name": "flysystem/flysystem",
+    "description": "flysystem/flysystem",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "League\\Flysystem\\": "src"
+            "Flysystem\\": "src"
         }
     },
     "conflict": {

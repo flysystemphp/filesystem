@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\Local;
+namespace Flysystem\Local;
 
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemAdapterTestCase;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\SymbolicLinkEncountered;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToRetrieveMetadata;
-use League\Flysystem\UnableToSetVisibility;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\UnixVisibility\PortableVisibilityConverter;
-use League\Flysystem\Visibility;
+use Flysystem\Config;
+use Flysystem\FilesystemAdapter;
+use Flysystem\FilesystemAdapterTestCase;
+use Flysystem\StorageAttributes;
+use Flysystem\SymbolicLinkEncountered;
+use Flysystem\UnableToCopyFile;
+use Flysystem\UnableToCreateDirectory;
+use Flysystem\UnableToDeleteDirectory;
+use Flysystem\UnableToDeleteFile;
+use Flysystem\UnableToMoveFile;
+use Flysystem\UnableToReadFile;
+use Flysystem\UnableToRetrieveMetadata;
+use Flysystem\UnableToSetVisibility;
+use Flysystem\UnableToWriteFile;
+use Flysystem\UnixVisibility\PortableVisibilityConverter;
+use Flysystem\Visibility;
 
 use function file_get_contents;
 use function file_put_contents;

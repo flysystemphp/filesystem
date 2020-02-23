@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Flysystem;
+namespace Flysystem;
 
 use finfo;
 

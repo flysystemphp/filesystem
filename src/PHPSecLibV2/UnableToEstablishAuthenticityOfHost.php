@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PHPSecLibV2;
+namespace Flysystem\PHPSecLibV2;
 
-use League\Flysystem\FilesystemException;
+use Flysystem\FilesystemException;
 use RuntimeException;
 
 class UnableToEstablishAuthenticityOfHost extends RuntimeException implements FilesystemException

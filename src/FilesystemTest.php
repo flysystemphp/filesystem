@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem;
+namespace Flysystem;
 
+use Flysystem\InMemory\InMemoryFilesystemAdapter;
 use Generator;
 use IteratorAggregate;
-use League\Flysystem\InMemory\InMemoryFilesystemAdapter;
 use PHPUnit\Framework\TestCase;
 
 class FilesystemTest extends TestCase

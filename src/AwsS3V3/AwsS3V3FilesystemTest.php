@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AwsS3V3;
+namespace Flysystem\AwsS3V3;
 
 use Aws\S3\S3Client;
 use Aws\S3\S3ClientInterface;
-use League\Flysystem\Config;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemAdapterTestCase;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
+use Flysystem\Config;
+use Flysystem\FileAttributes;
+use Flysystem\FilesystemAdapter;
+use Flysystem\FilesystemAdapterTestCase;
+use Flysystem\StorageAttributes;
+use Flysystem\UnableToDeleteFile;
+use Flysystem\UnableToMoveFile;
 
 class AwsS3V3FilesystemTest extends FilesystemAdapterTestCase
 {

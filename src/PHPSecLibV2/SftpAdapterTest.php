@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\PHPSecLibV2;
+namespace Flysystem\PHPSecLibV2;
 
-use League\Flysystem\Config;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemAdapterTestCase;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToCreateDirectory;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToReadFile;
-use League\Flysystem\UnableToWriteFile;
+use Flysystem\Config;
+use Flysystem\FilesystemAdapter;
+use Flysystem\FilesystemAdapterTestCase;
+use Flysystem\UnableToCopyFile;
+use Flysystem\UnableToCreateDirectory;
+use Flysystem\UnableToMoveFile;
+use Flysystem\UnableToReadFile;
+use Flysystem\UnableToWriteFile;
 
 /**
  * @group sftp

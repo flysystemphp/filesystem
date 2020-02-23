@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\FTP;
+namespace Flysystem\FTP;
 
+use Flysystem\Config;
+use Flysystem\FileAttributes;
+use Flysystem\FilesystemAdapter;
+use Flysystem\FilesystemAdapterTestCase;
+use Flysystem\StorageAttributes;
+use Flysystem\UnableToCopyFile;
+use Flysystem\UnableToDeleteDirectory;
+use Flysystem\UnableToDeleteFile;
+use Flysystem\UnableToMoveFile;
+use Flysystem\UnableToWriteFile;
+use Flysystem\Visibility;
 use Generator;
-use League\Flysystem\Config;
-use League\Flysystem\FileAttributes;
-use League\Flysystem\FilesystemAdapter;
-use League\Flysystem\FilesystemAdapterTestCase;
-use League\Flysystem\StorageAttributes;
-use League\Flysystem\UnableToCopyFile;
-use League\Flysystem\UnableToDeleteDirectory;
-use League\Flysystem\UnableToDeleteFile;
-use League\Flysystem\UnableToMoveFile;
-use League\Flysystem\UnableToWriteFile;
-use League\Flysystem\Visibility;
 
 /**
  * @group ftp
